@@ -1,0 +1,53 @@
+.home {
+    background: url("/images/bg-pattern.png"),linear-gradient(to left,#7b4397,#dc2430);
+    color: #fff;
+    width: 100%;
+}
+
+// Buttons
+.btn-xl {
+    font-size: 11px;
+    padding: 15px 45px;
+    border-radius: 300px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid;
+    border-color: #fff;
+    margin-bottom: 20px;
+}
+
+.link-raise {
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+    0 1px 5px 0 rgba(0, 0, 0, 0.12), 
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+  .btn-xl:hover {
+      color: #fff;
+      background-color: #000;
+  }
+
+  .create-link {
+      font-size: 20px;
+      font-weight: 600;
+      padding-top: 10px; 
+  }
+  
+  .create-link:hover {
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .btn-spacing {
+      margin-right: 10px;
+  }
+
+  .btn-spacing-top {
+      margin-top: 10px;
+  }
